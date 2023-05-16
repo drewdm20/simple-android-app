@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/red_100"
+    android:background="@color/blue_100"
     tools:context=".ThirdFragment">
 
     <TextView
@@ -11,10 +11,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:textColor="#D32F2F"
+        android:layout_marginStart="10sp"
+        android:text="FIND OUR CONTACT DETAILS BELOW: \n Email address : abc@company.ac.za \nCellphone number : 0717991654 \n Physical address: 45 Auckland park"
+        android:textColor="#656363"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="Third"
-        />
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30sp"
+        android:layout_marginStart="10sp"
+        android:src="@drawable/whatsapp"/>
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30sp"
+        android:layout_marginStart="70sp"
+        android:src="@drawable/facebook"/>
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30sp"
+        android:layout_marginStart="130sp"
+        android:src="@drawable/instar"/>
 
 </FrameLayout>
