@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ABC Company</string>
+    <string name="login">Login\n</string>
+    <string name="password_hint">Password</string>
+    <string name="register">Register</string>
+    <string name="email_hint">Email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment_text">First</string>
+    <string name="second_fragment_text">Second</string>
+    <string name="name_hint">Name</string>
+</resources>
