@@ -19,9 +19,9 @@ class DashboardActivity : AppCompatActivity() {
 
         val adapter=ViewPagerAdapter(supportFragmentManager)
 
-        adapter.addFragment(FirstFragment(),"First")
-        adapter.addFragment(SecondFragment(),"Second")
-        adapter.addFragment(ThirdFragment(),"Third")
+        adapter.addFragment(FirstFragment(),"About Us")
+        adapter.addFragment(SecondFragment(),"Gallery")
+        adapter.addFragment(ThirdFragment(),"Contact Us")
 
         binding.viewPager.adapter=adapter
         binding.tbLayout.setupWithViewPager(binding.viewPager)
