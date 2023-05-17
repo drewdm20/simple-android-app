@@ -28,7 +28,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="190dp"
         android:lines="05"
-        android:text="We at ABC Company comprehend the importance of a new pair of sneakers.\nWe combined our love of sneaker culture with science to create a natural cleaning solution that works"
+        android:text="We at Sneaker House comprehend the importance of a new pair of sneakers.\nWe combined our love of sneaker culture with science to create a natural cleaning solution that works"
         android:textSize="20sp"
         android:fontFamily="sans-serif-condensed"
 

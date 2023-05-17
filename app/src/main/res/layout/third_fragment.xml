@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue_100"
+    android:background="@color/white"
     tools:context=".ThirdFragment">
 
 
@@ -15,7 +15,7 @@
         android:text="FIND OUR CONTACT DETAILS BELOW: \n Email address : abc@company.ac.za \nCellphone number : 0717991654 \n Physical address: 45 Quince Street, Auckland Park, Johannesburg 2092"
         android:textColor="#656363"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:fontFamily="sans-serif-condensed"/>
     <ImageView
         android:layout_width="200sp"
         android:layout_height="50sp"
