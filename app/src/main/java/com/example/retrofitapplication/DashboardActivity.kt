@@ -10,6 +10,7 @@ class DashboardActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDashboardBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_dashboard)
 
         binding= ActivityDashboardBinding.inflate(layoutInflater)
