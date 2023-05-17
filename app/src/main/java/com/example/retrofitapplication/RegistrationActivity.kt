@@ -18,6 +18,7 @@ class RegistrationActivity : AppCompatActivity() {
         val view = binding.root
         super.onCreate(savedInstanceState)
         setContentView(view)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         viewModel.registrationResult.observe(this) {
             when (it) {
                 is BaseResponse.Loading -> {
@@ -71,5 +72,10 @@ class RegistrationActivity : AppCompatActivity() {
     }
     fun showToast(msg: String) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show()
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        navigateToHome()
+        return true
     }
 }
